@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale= 0.9" />
+    <link rel="stylesheet" href="/pages_css/mainpage.css" />
+    <title>Homepage</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
+  </head>
+
+  <body>
+    <div class="topnav">
+      <a href="/Pages/index.html">Home</a>
+      <a href="/pages/about.html">About</a>
+      <a class="active" href="/pages/forms.html">Suggestion</a>
+    </div>
+    <div class="overflow title">
+        <h1 class="title">Provide Your Feedback</h2>
+    </div>
+    <div class="overflow">
+      <div class="form-container">
+        <form action="#" method="post">
+            <label class="title" for="name">What's your full name?:</label>
+            <input
+            type="name"
+            id="name"
+            name="name"
+            placeholder="Please, enter your name"
+            required
+          />
+          <label  class="title" for="suggestion">Album suggestion:</label>
+          <textarea
+            id="suggestion"
+            name="suggestion"
+            rows="4"
+            placeholder="Enter your album suggestion here"
+            required
+          ></textarea>
+          <label class="title" for="email">Email Contact:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <p class="title">Did you like the site?</p>
+          <label class="text" for="like">I liked it</label>
+          <input 
+            type="radio" 
+            id="like" 
+            name="likeit" 
+            value="I like it" />
+          <label class="text" for="dontlike">I did not like</label>
+          <input
+            type="radio"
+            id="dontlike"
+            name="dontlikeit"
+            value="I did not like"
+          />
+          <label class="text" for="anysuggestions">Any sugestions?</label>
+          <input
+            type="text"
+            id="anysuggestions"
+            name="suggestion"
+            placeholder="Sugest anything"
+          />
+          <hr />
+          <input 
+          type="submit" 
+          value="Submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

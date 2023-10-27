@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- 
+    abaixo será  básicamente setado as configuraçoes basicas 
+    de funcionamento de um site, como sua base de caracteres, 
+    seu viewport, título da página e também sua linkagem com 
+    a página de style sheets.
+-->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale= 0.9" />
+    <link rel="stylesheet" href="/pages_css/mainpage.css" />
+    <title>Homepage</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
+  </head>
+
+  <!-- 
+    o body irá conter todo o conteúdo da página, que
+    basicamente se contém em: navegation bar, avatar profile 
+    picture e também uma sessão para texto explicativo contendo
+    dois albuns a mostra, um album da banda Tame Impala e o outro
+    da banda Deftones. as espeficicacoes de contrução foram feitas 
+    no arquivo CSS.
+-->
+
+  <body>
+    <div class="topnav">
+      <a class="active" href="/Pages/index.html">Home</a>
+      <a href="/pages/about.html">About</a>
+      <a href="/pages/forms.html">Suggestion</a>
+    </div>
+    <h1>
+      <img
+        class="overflow title"
+        src="/images/logo.png"
+        alt="Maykon Fonseca's logo"
+      />
+    </h1>
+    <h1>
+      <img src="/images/PFP.jpg" alt="Avatar Maykon" class="avatar" />
+    </h1>
+    <div class="title overflow">
+      <img src="/images/mainalbums.png" alt="Main albums logo" />
+    </div>
+    <div class="overflow">
+      <div class="leftcontainer">
+        <img
+          class="imagesize"
+          src="/images/Currents.png"
+          alt="Currents album by Tame Impala"
+        />
+      </div>
+      <div class="rightcontainer">
+        <h1 class="bolding tameimpala">Currents by Tame Impala</h1>
+        <div class="thirdcontainer tameimpala">
+          Currents is the third studio album by Australian musical project Tame
+          Impala. It was released on 17 July 2015 by Modular Recordings and
+          Universal Music Australia. In the United States it was released by
+          Interscope Records and Fiction Records in the UK, while Caroline
+          International released it in other regions. Like the project's
+          previous two albums, Currents was written, recorded, performed, and
+          produced by Kevin Parker. For the first time, Parker mixed the music
+          and recorded all instruments by himself; the album featured no other
+          collaborators.
+        </div>
+      </div>
+    </div>
+    <div class="overflow">
+      <div class="leftcontainer">
+        <img
+          class="imagesize"
+          src="/images/Saturday_Night_Wrist.jpg"
+          alt="Saturday Night Wrist album by Deftones"
+        />
+      </div>
+      <div class="rightcontainer">
+        <h1 class="bolding deftones">Saturday Night Wrist by Deftones</h1>
+        <div class="thirdcontainer deftones">
+          Saturday Night Wrist is the fifth studio album by American alternative
+          metal band Deftones, released on October 31, 2006, by Maverick
+          Records. Despite early contributions that were later scrapped, it
+          marked the departure of mainstay Deftones producer Terry Date. It was
+          also the last Deftones album to feature bassist Chi Cheng, as well as
+          the last album of his career and his lifetime, prior to being involved
+          in a serious car accident in 2008, which put him in a coma. He
+          eventually died five years later from cardiac arrest.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
